@@ -9,7 +9,7 @@ function get-sanstipoftheday {
     Write-host -ForegroundColor Green "SAN's Tip of the Day!"
     write-host -ForegroundColor Green "---------------------"
     write-host -NonewLine $r.innerText
-    write-host -ForegroundColor Yellow " [$url]"
+    write-host -ForegroundColor Yellow " [$link]"
 }
 
 get-sanstipoftheday
